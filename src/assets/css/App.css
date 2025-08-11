@@ -1,5 +1,9 @@
+
+
 .App {
-  text-align: center;
+ width: 100vw;      /* ocupa todo el ancho de la ventana */
+  max-width: 100%;   /* evita límites */
+  overflow-x: hidden;
 }
 
 .App-logo {

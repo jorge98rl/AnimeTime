@@ -1,0 +1,168 @@
+.first-background {
+    background-color: #cfc8c3;
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+.first-background .left-div {
+    width: 55%;
+    border-left: 1px solid black;
+}
+
+.first-background .right-div {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-container,
+.third-container {
+    display: flex;
+    height: 20vh;
+    width: 100%;
+    margin-left: 20%;
+}
+
+.first-container p {
+    font-size: 14px;
+    width: 40%;
+    margin-left: 250px;
+    text-align: start;
+}
+
+.first-container h5,
+.third-container h5 {
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+
+
+
+.third-container {
+    margin-top: 3px;
+
+}
+
+.third-container p {
+    width: 40%;
+    margin-left: 440px;
+    text-align: start;
+    font-size: 14px;
+
+}
+
+.second-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20%;
+    margin-bottom: 0px;
+}
+
+.second-container h1 {
+    font-size: 9vw;
+    font-weight: bolder;
+
+}
+
+
+
+.right-div .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.sizeBtn {
+    height: 50px;
+    width: 150px;
+
+}
+
+.second-container button {
+    color: #cfc8c3;
+}
+
+.second-container button:hover {
+    color: #cfc8c3;
+}
+
+/* Segundo Bloque*/
+
+#second-container-page {
+    background: #1d1b19;
+    color: #cfc8c3;
+}
+
+#second-container-page button {
+    background: #cfc8c3;
+    color: black
+}
+
+#second-container-page button:hover {
+    background: #b9b4af;
+}
+
+.second-container-right-div {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    width: 60%;
+
+}
+
+.second-container-right-div .img-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-right: 30%;
+    margin-top: 15%;
+
+}
+
+.second-container-right-div .img-container img {
+    height: 600px;
+    gap: 5px;
+    margin: 1%;
+}
+
+#second-container-page .left-div .first-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#second-container-page .left-div .first-container h5 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+#second-container-page .left-div .first-container span {
+    margin-top: 40px;
+    margin-left: 0px;
+    color: #968a86;
+}
+
+#second-container-page .left-div .first-container p {
+
+    margin-left: 0px;
+    width: 50%;
+    margin-bottom: 30px; 
+}
+
+#second-container-page .img-container-second-page {
+    margin-top: 20px;
+    height: 300px;
+}
+
+#second-container-page .img-container-second-page img {
+    max-height: 100%;
+    
+}
