@@ -10,7 +10,7 @@
     display: flex;
     height: 100vh;
     align-items: center;
-    
+
 }
 
 .first-background .left-div {
@@ -38,7 +38,7 @@
     width: 40%;
     margin-left: 250px;
     text-align: start;
-    
+
 }
 
 .first-container h5,
@@ -60,7 +60,7 @@
     margin-left: 440px;
     text-align: start;
     font-size: 14px;
-    margin-top: 80px;
+
 }
 
 .second-container {
@@ -85,7 +85,7 @@
     align-items: center;
     width: 55%;
     height: auto;
-    margin-right: 25%;
+
 }
 
 .sizeBtn {
@@ -112,7 +112,7 @@
 #second-container-page button {
     background: #cfc8c3;
     color: black;
-    
+
 }
 
 #second-container-page button:hover {
@@ -125,7 +125,7 @@
     margin: 0px;
     width: 100%;
     align-items: center;
-    
+
 }
 
 .second-container-right-div .img-container {
@@ -133,8 +133,8 @@
     justify-content: flex-start;
     width: 100%;
     margin-right: 30%;
-    margin-top: 15%;
-
+    margin-top: 28.5%;
+    height: 80vh;
 }
 
 .second-container-right-div .img-container img {
@@ -167,7 +167,7 @@
 
     margin-left: 0px;
     width: 60%;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
     text-align: left;
 }
 
@@ -182,27 +182,31 @@
 
 /*TERCER CONTENEDOR*/
 
-.container-third{
-    background:  #1d1b19;
+.container-third {
+    background: #1d1b19;
+
 }
+
 .grid-container {
     display: grid;
-    grid-template-columns:  auto auto;
-    grid-template-rows: 1fr ;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr;
     width: 100%;
     justify-items: center;
-    
+    margin-top: 130px;
 }
+
 .first-grid {
     display: flex;
     color: #cfc8c3;
     width: 100%;
     margin-left: 15%;
     margin-top: 100px;
+    margin-bottom: 20px;
 }
 
 .first-grid h5 {
-    color: #cfc8c3; 
+    color: #cfc8c3;
     font-weight: bolder;
     font-size: 24px;
 }
@@ -211,6 +215,7 @@
     color: #968a86;
     text-transform: uppercase;
 }
+
 .first-grid img {
     width: 100%;
     height: 300px;
@@ -228,12 +233,12 @@
 
 .photo {
     margin: 10px;
-   
+
 }
 
 #collage-photos {
-    margin-top: -100px; 
-    margin-left: 25px;
+    margin-top: -100px;
+    margin-left: 15px;
 }
 
 .first-grid button {
@@ -244,4 +249,94 @@
 
 .first-grid button:hover {
     color: #1d1b19;
+    background: #b9b4af;
+}
+
+.global-container {
+    background: #1d1b19;
+}
+
+
+/*CUARTO BLOQUE*/
+.section-layout {
+    padding: 40px;
+    background: #1d1b19;
+    color: #fff;
+    margin-top: 80px;
+    margin-left: 70px;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: stretch;
+    gap: 20px;
+    width: 90%;
+    justify-items: center;
+    
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.left-content h2 {
+    color: #cfc8c3;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.left-content p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #cfc8c3;
+    width: 60%;
+}
+.left-content span {
+    color: #968a86;
+    text-transform: uppercase;
+}
+.left-content button {
+    background: #cfc8c3;
+    color: #000;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    transition: 0.3s;
+    width: 30%;
+}
+
+.left-content button a {
+    text-decoration: none !important;
+    color: #000;
+}
+.left-content button:hover {
+    background: #b9b4af;
+}
+
+.small-photo img {
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+    height: 72%;
+}
+
+.right-photo {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+}
+.right-photo img {
+    width: 100%;
+    height: 80%;
+    border-radius: 20px;
+    object-fit: cover;
+    
 }
