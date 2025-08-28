@@ -1,7 +1,7 @@
 
 import './assets/css/App.css';
-import './components/Landing';
-import Landing from './components/Landing';
+import './view/Landing';
+import Landing from './view/Landing';
 function App() {
   return (
     <div className="App">
