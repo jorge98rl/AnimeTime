@@ -2,8 +2,15 @@
     box-sizing: border-box;
 }
 
-
-
+.menu-nav {
+    color: white;
+    text-decoration: none;
+    transition: all 500ms;
+    font-weight: bold;
+}
+.menu-nav:hover {
+    color: blue;
+}
 .first-background {
     background-color: #cfc8c3;
     width: 100%;

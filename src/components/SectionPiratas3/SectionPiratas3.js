@@ -33,13 +33,13 @@ const SectionPiratas3 = () => {
                         </button>
 
                         {/* Foto pequeña debajo */}
-                        <div className="small-photo">
+                        <div className="small-photo img-fluid">
                             <img src={tripu1} alt="one piece" />
                         </div>
                     </div>
 
                     {/* Columna derecha */}
-                    <div className="right-photo">
+                    <div className="right-photo img-fluid">
                         <img src={tripu4} alt="one piece" />
                     </div>
                 </div>

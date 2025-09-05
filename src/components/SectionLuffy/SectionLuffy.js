@@ -5,11 +5,15 @@ import { useState } from "react";
 const SectionLuffy = () => {
 
     const luffy = "https://storage.googleapis.com/pod_public/1300/212827.jpg";
-    const [color, setColor] = useState("#1d1b19");
+    const [color, setColor] = useState(false);
 
     const cambiarColor = () => {
-        setColor("red");
+        setColor(!color);
     };
+
+    const textStyle = {
+        color: color? "#fc0000" : "#333",
+    }
 
     const parrafo = <p> Gracias a la Gomu Gomu no Mi, su cuerpo tiene propiedades de goma,
                         lo que le permite estirarse y luchar de forma única. Aunque es
@@ -26,7 +30,7 @@ const SectionLuffy = () => {
                     {parrafo}
                 </div>
                 <div className="second-container">
-                    <h1 style={{ color }}>One Piece</h1>
+                    <h1 style={ textStyle }>One Piece</h1>
                     <button
                         className="btn btn-dark rounded rounded-5 sizeBtn"
                         onClick={cambiarColor}

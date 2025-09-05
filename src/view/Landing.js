@@ -4,12 +4,14 @@ import SectionLuffy from "../components/SectionLuffy/SectionLuffy";
 import SectionPiratas from "../components/SectionPiratas/SectionPiratas";
 import SectionPiratas2 from "../components/SectionPiratas2/SectionPiratas2";
 import SectionPiratas3 from "../components/SectionPiratas3/SectionPiratas3";
+import Header from "../components/Header/Header";
+
 function Landing() {
-
-
-
     return (
         <div className="global-container">
+            {/* Navegación */}
+
+            <Header />
             {/** Primer Bloque */}
             <SectionLuffy />
             {/** Segundo Bloque */}

@@ -9,10 +9,12 @@ const SectionPiratas = () => {
     const imgOnePiece3 =
         "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2018/08/one-piece_0.jpg?tf=1200x1200";
 
-    const [texto, setTexto] = useState("One Piece");
+    const [texto, setTexto] = useState(false);
     const cambiarTitulo = () => {
-        setTexto("Top 1");
+        setTexto(!texto);
     };
+
+
     return (
         <div>
             <section className="first-background" id="second-container-page">
@@ -20,7 +22,7 @@ const SectionPiratas = () => {
                     <div className="first-container">
                         <h5>Piratas Sombrero de Paja</h5>
                         <span>April 2023 | Tokyo, Japan</span>
-                        <h1>{texto}</h1>
+                        <h1>{texto ? "One Piece" : "Top 1"}</h1>
                         <p>
                             La tripulación de los Sombrero de Paja está liderada por Monkey D.
                             Luffy y está compuesta por Zoro, Nami, Usopp, Sanji, Chopper,

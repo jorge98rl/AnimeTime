@@ -24,7 +24,7 @@ const SectionPiratas2 = () => {
             <section className="container-third">
                 <div className="grid-container">
                     <div className="first-grid">
-                        <img src={imagen} alt="one piece"></img>
+                        <img src={imagen} alt="one piece" className='img-fluid'></img>
                         <div className="align-container">
                             <span>April 2023 | Tokyo, Japan</span>
                             <h5>Piratas Sombrero de Paja</h5>
@@ -45,7 +45,7 @@ const SectionPiratas2 = () => {
                     </div>
                 </div>
                 <div className="grid-container" id="collage-photos">
-                    <div className="first-grid">
+                    <div className="first-grid img-fluid">
                         <img className="photo" src={tripu1} alt="one piece"></img>
                         <img className="photo" src={tripu2} alt="one piece"></img>
                         <img className="photo" src={tripu3} alt="one piece"></img>
